@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Figma Land</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800&family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+  
+  <header class="header">
+    <div class="header_wrapper">
+      <div class="logo">
+        <img src="img/Logo.png" alt="">
+      </div>
+      <nav class="nav_menu">
+        <ul class="nav_list">
+          <li class="nav_item">
+            <a href="#home"  class="nav_link">Home</a>
+          </li>
+          <li class="nav_item">
+            <a href="#product" class="nav_link">Product</a>
+          </li>
+          <li class="nav_item">
+            <a href="#" class="nav_link">About</a>
+          </li>
+          <li class="nav_item">
+            <a href="#contact"  class="nav_link">Contact</a>
+          </li>
+        </ul> <!--nav_list-->
+      </nav>
+      <div class="btn" id="login">
+        <button class="button">
+          Login
+        </button>
+      </div>
+      <div class="burger_btn">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+          
+    </div> <!--header_wrapper-->
+
+
+
+
+  </header>
+
+
+  <main class="main">
+    <section class="section" id="home">
+      <div class="title">
+        <h1 class="intro_title">
+          Work at the speed of thought
+        </h1>
+        <p class="subtitle">
+          Most calendars are designed for teams. Slate is designed for 
+          freelancers who want a simple way to plan their schedule.
+        </p>
+        <div class="btns">
+          <button type="button" class="Try">Try for Free</button>
+          <button type="button" class="Learn black_btn">Try for Free</button>
+        </div>
+      </div>
+      <div class="section_img">
+        <img src="img/screens.png" alt="">
+      </div>
+
+      <div class="modal">
+        <div class="modal_main">
+          <h2 class="modal_title">Login</h2>
+          <div class="modal_container">
+            <form class="form" action="/">
+              <input class="input" placeholder="name" type="text" maxlength="15" onkeypress="noDigits(event)">
+              <input class="input" placeholder="password" type="password" maxlength="20">
+              <button class="login_modal">Login</button>
+            </form>
+          </div>
+          <button class="modal_close" id="close">
+            <img src="img/cross.png" width="25px" height="25px" alt="">
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="features">
+      <div class="header_features">
+        <h1 class="header_features_title header_section">
+          FEATURES
+        </h1>
+        <p class="header_features_subtitle">
+          Most calendars are designed for teams. Slate is designed
+          for freelancers who want a simple way to plan their schedule.
+        </p>
+      </div> <!--header_features-->
+
+      <div class="features_content">
+        <div class="features_img">
+          <picture>
+            <source srcset="img/Frame_mobile.png"  media="(max-width: 1250px)">
+            <img src="img/Frame 19.png" alt="">
+          </picture>
+        </div>
+        <div class="features_list">
+          <ul>
+            <li class="features_list_item">
+              <div class="features_list_content">
+                <img src="img/icon.svg" alt="">
+                <h1>A single source of truth</h1>
+              </div>
+              <p class="features_list_subtitle">
+                When you add work to your Slate calendar we automatically calculate useful insights
+              </p>
+            </li>
+
+            <li class="features_list_item">
+              <div class="features_list_content">
+                <img src="img/icon_2.svg" alt="">
+                <h1>A single source of truth</h1>
+              </div>
+              <p class="features_list_subtitle">
+                When you add work to your Slate calendar we automatically calculate useful insights
+              </p>
+            </li>
+
+
+            <li class="features_list_item">
+              <div class="features_list_content">
+                <img src="img/icon_3.svg" alt="">
+                <h1>A single source of truth</h1>
+              </div>
+              <p class="features_list_subtitle">
+                When you add work to your Slate calendar we automatically calculate useful insights
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section> <!--features-->
+
+
+
+    <section class="content">
+      <div class="header_content">
+        <h1 class="header_content_title header_section">
+          FEATURES
+        </h1>
+        <p class="header_features_subtitle section_header_title ">
+          Most calendars are designed for teams. Slate is designed
+          for freelancers who want a simple way to plan their schedule.
+        </p>
+      </div> <!--header_content-->
+
+      <div class="content" id="product">
+        <div class="all_cart">
+          <div class="cart">
+            <h1 class="cart_title">Work</h1>
+            <p class="cart_subtitle">
+              Ever wondered if you're too reliant
+              on a client for work?
+              Slate helps you identify .
+            </p>
+            <div class="cart_btn">
+              <button class="blue_btn">Sign Up</button>
+            </div>
+            <div class="cart_img first">
+              <img src="img/Macbook Pro.png" alt="">
+            </div>
+          </div> <!--cart-->
+          <div class="cart">
+            <h1 class="cart_title">Work</h1>
+            <p class="cart_subtitle">
+              Ever wondered if you're too reliant
+              on a client for work?
+              Slate helps you identify .
+            </p>
+            <div class="cart_btn">
+              <button class="blue_btn">Try for Free</button>
+            </div>
+            <div class="cart_img">
+              <img src="img/Boards Notifications.png" alt="">
+            </div>
+          </div> <!--cart-->
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery">
+      <div class="header_content">
+        <h1 class="header_content_title header_section">
+          gallery 
+        </h1>
+        <p class="header_features_subtitle section_header_title ">
+          Most calendars are designed for teams. Slate is designed
+          for freelancers who want a simple way to plan their schedule.
+        </p>
+      </div> <!--header_content-->
+
+      <div class="carts_gallery">
+        <div class="carts">
+          <img src="img/cart-img/Card.png" alt="">
+          <img src="img/cart-img/Card (1).png" alt="card">
+          <img src="img/cart-img/Card (2).png" alt="card">
+          <img src="img/cart-img/Card (3).png" alt="card">
+          <img class="cart_images" src="img/cart-img/Card (4).png" alt="card">
+          <img class="cart_images" src="img/cart-img/Card (5).png" alt="card">
+          <img class="cart_images last_item" src="img/cart-img/Card (6).png" alt="card">
+        </div>
+      </div> <!--carts_gallery-->
+      <div class="gallery_btn">
+        <button class="black_btn">see more</button>
+      </div>
+    </section>
+
+    <section class="Partners">
+      <div class="header_content">
+        <h1 class="header_content_title header_section">
+          Partners
+        </h1>
+        <p class="header_features_subtitle section_header_title ">
+          Most calendars are designed for teams. Slate is designed
+          for freelancers who want a simple way to plan their schedule.
+        </p>
+      </div> <!--header_content-->
+
+
+      <div class="partners_content">
+        <div class="partners_icon">
+          <img src="img/icon_partners/logos_apple-app-store.svg" alt="icon">
+          <img src="img/icon_partners/logos_apiary.svg" alt="icon">
+          <img src="img/icon_partners/logos_android-icon.svg" alt="icon">
+          <img src="img/icon_partners/logos_basecamp.svg" alt="icon">
+          <img src="img/icon_partners/logos_airbnb.svg" alt="icon">
+          <img src="img/icon_partners/logos_ibm.svg" alt="icon">
+        </div>
+        <div class="Partners_btn">
+          <button class="black_btn">see more</button>
+        </div>
+      </div> <!--partners_content-->
+    </section>
+
+
+    <section class="testimonials">
+      <div class="header_content">
+        <h1 class="header_content_title header_section">
+          testimonials
+        </h1>
+      </div> <!--header_content-->
+
+      <div class="coments">
+        <div class="coments_cart">
+          <div class="coments_header">
+            <div class="comemts_avatar">
+              <img width="50px" height="50px" src="img/avatar.svg" alt="">
+            </div>
+            <div class="coments_title">
+              <h4 class="coment_name">
+                Claire Bell
+              </h4>
+              <h4 class="coment_prof">
+                Designer
+              </h4>
+              <p class="coment_paragraph">
+                Slate helps you see how many more days 
+                you need to work to reach your financial 
+                goal for the month and year. Slate helps 
+                you see how many more days 
+                you need to work to reach your financial 
+                goal for the month and year.your financial 
+                goal for the month and year.
+              </p>
+            </div> <!--coments_title-->
+          </div> <!--coments_header-->
+        </div> <!--coments_cart-->
+
+
+        <div class="coments_cart">
+          <div class="coments_header">
+            <div class="comemts_avatar">
+              <img width="50px" height="50px" src="img/avatar_4.svg" alt="">
+            </div>
+            <div class="coments_title">
+              <h4 class="coment_name">
+                Francisco Lane
+              </h4>
+              <h4 class="coment_prof">
+                Designer
+              </h4>
+              <p class="coment_paragraph">
+                Slate helps you see how many more days 
+                you need to work to reach your financial 
+                goal for the month and year. Slate helps 
+                you see how many more days 
+                you need to work to reach your financial 
+                goal for the month and year.your financial 
+                goal for the month and year.
+              </p>
+            </div> <!--coments_title-->
+          </div> <!--coments_header-->
+        </div> <!--coments_cart-->
+
+
+        <div class="coments_cart">
+          <div class="coments_header">
+            <div class="comemts_avatar">
+              <img width="50px" height="50px" src="img/avatar_2.svg" alt="">
+            </div>
+            <div class="coments_title">
+              <h4 class="coment_name">
+                Ralph Fisher
+              </h4>
+              <h4 class="coment_prof">
+                Designer
+              </h4>
+              <p class="coment_paragraph">
+                Slate helps you see how many more days 
+                you need to work to reach your financial 
+                goal for the month and year. Slate helps 
+                you see how many more days 
+                you need to work to reach your financial 
+                goal for the month and year.your financial 
+                goal for the month and year.
+              </p>
+            </div> <!--coments_title-->
+          </div> <!--coments_header-->
+        </div> <!--coments_cart-->
+
+
+        <div class="coments_cart">
+          <div class="coments_header">
+            <div class="comemts_avatar">
+              <img width="50px" height="50px" src="img/avatar_3.svg" alt="">
+            </div>
+            <div class="coments_title">
+              <h4 class="coment_name">
+                Jorge Murphy
+              </h4>
+              <h4 class="coment_prof">
+                Designer
+              </h4>
+              <p class="coment_paragraph">
+                Slate helps you see how many more days 
+                you need to work to reach your financial 
+                you need to work to reach your financial 
+                goal for the month and year.your financial 
+                goal for the month and year.
+              </p>
+            </div> <!--coments_title-->
+          </div> <!--coments_header-->
+        </div> <!--coments_cart-->
+      </div>
+    </section>
+
+
+    <section class="open">
+      <div class="open_type">
+        <div class="open_type_content">
+          <div class="open_title">
+            <h1>OpenType features 
+              and Variable fonts</h1>
+              <button class="blue_btn">
+                Try For Free
+              </button>
+          </div><!--open_title-->
+          <div class="open_img">
+            <picture>
+              <source srcset="img/mobile_img.png" media="(max-width: 1250px)">
+              <img src="img/Line Chart 1.png" alt="">
+            </picture>
+          </div>
+        </div><!--open_type_content-->
+      </div>
+    </section>
+
+
+    <footer class="footer">
+      <div class="footer_content">
+        <div class="list">
+          <ul class="footer_list">
+            <li class="footer_item">
+              <a href="#" class="footer_link">Fingertipe</a>
+            </li>
+            <li class="footer_item">
+              <a href="#" class="footer_link">Home</a>
+            </li>
+            <li class="footer_item">
+              <a href="#" class="footer_link">Examples</a>
+            </li>
+            <li class="footer_item">
+              <a href="#" class="footer_link">Pricing</a>
+            </li>
+            <li class="footer_item">
+              <a href="#" class="footer_link">Pricing</a>
+            </li>
+          </ul>
+  
+          <ul class="footer_list">
+            <li class="footer_item">
+              <a href="#" class="footer_link">Fingertipe</a>
+            </li>
+            <li class="footer_item">
+              <a href="#" class="footer_link">Home</a>
+            </li>
+            <li class="footer_item">
+              <a href="#" class="footer_link">Examples</a>
+            </li>
+            <li class="footer_item">
+              <a href="#" class="footer_link">Pricing</a>
+            </li>
+            <li class="footer_item">
+              <a href="#" class="footer_link">Pricing</a>
+            </li>
+          </ul>
+  
+  
+          <ul class="footer_list">
+            <li class="footer_item">
+              <a href="#" class="footer_link">Fingertipe</a>
+            </li>
+            <li class="footer_item">
+              <a href="#" class="footer_link">Home</a>
+            </li>
+            <li class="footer_item">
+              <a href="#" class="footer_link">Examples</a>
+            </li>
+            <li class="footer_item">
+              <a href="#" class="footer_link">Pricing</a>
+            </li>
+            <li class="footer_item">
+              <a href="#" class="footer_link">Pricing</a>
+            </li>
+          </ul>
+        </div><!--list-->
+
+        <div class="footer_contact"  id="contact">
+          <ul class="footer_contact_list">
+            <li class="footer_contact_list_item">
+              <svg xmlns="http://www.w3.org/2000/svg" width="46" height="47" viewBox="0 0 46 47" fill="none">
+                <path d="M23 26.9036C27.2282 26.9036 30.6667 23.4651 30.6667 19.237C30.6667 15.0088 27.2282 11.5703 23 11.5703C18.7719 11.5703 15.3334 15.0088 15.3334 19.237C15.3334 23.4651 18.7719 26.9036 23 26.9036ZM23 15.4036C25.1141 15.4036 26.8334 17.1229 26.8334 19.237C26.8334 21.3511 25.1141 23.0703 23 23.0703C20.886 23.0703 19.1667 21.3511 19.1667 19.237C19.1667 17.1229 20.886 15.4036 23 15.4036Z" fill="black"/>
+                <path d="M21.8885 41.8806C22.2129 42.1123 22.6015 42.2368 23.0001 42.2368C23.3987 42.2368 23.7874 42.1123 24.1118 41.8806C24.6945 41.4686 38.389 31.5805 38.3335 19.2371C38.3335 10.7827 31.4545 3.90381 23.0001 3.90381C14.5457 3.90381 7.66679 10.7827 7.66679 19.2276C7.61121 31.5805 21.3058 41.4686 21.8885 41.8806ZM23.0001 7.73714C29.3424 7.73714 34.5001 12.8949 34.5001 19.2467C34.5404 27.7529 26.0898 35.3908 23.0001 37.8959C19.9124 35.3889 11.4599 27.7491 11.5001 19.2371C11.5001 12.8949 16.6579 7.73714 23.0001 7.73714Z" fill="white"/>
+                </svg>
+              <a href="#"> 
+                  7480 Mockingbird Hill undefined 
+              </a>
+            </li>
+            <li class="footer_contact_list_item">
+              <svg xmlns="http://www.w3.org/2000/svg" width="35" height="36" viewBox="0 0 35 36" fill="none">
+                <path d="M23.3333 2.02881H11.6666C9.24579 2.02881 7.29163 3.98298 7.29163 6.40381V29.7371C7.29163 32.158 9.24579 34.1121 11.6666 34.1121H23.3333C25.7541 34.1121 27.7083 32.158 27.7083 29.7371V6.40381C27.7083 3.98298 25.7541 2.02881 23.3333 2.02881ZM20.4166 31.1955H14.5833V29.7371H20.4166V31.1955ZM25.1562 26.8205H9.84371V6.40381H25.1562V26.8205Z" fill="white"/>
+                </svg>
+              <a href="#"> 
+                (239) 555-0108
+              </a>
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+
+  </main>
+
+
+<script src="app.js"></script>
+</body>
+</html>
