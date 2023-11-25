@@ -971,6 +971,7 @@ footer {
 
   .btns {
     display: flex;
+    justify-content: center;
   }
 
   .nav_menu.active {
