@@ -218,8 +218,6 @@ section {
   width: 30px;
   cursor: pointer;
   rotate: 180deg;
-  position: absolute;
-  right: -15%;
 }
 
 .mobile_btn {
@@ -1036,4 +1034,19 @@ footer {
     height: auto;
     width: 100%;
   }
+}
+
+
+  .nav_menu.active {
+    backdrop-filter: blur(25px);
+    display: block;
+    transform: translateY(0);
+    opacity: 1;
+    justify-content: center;
+  }
+
+
+
+html {
+    scroll-behavior: smooth;
 }
