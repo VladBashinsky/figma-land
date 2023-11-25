@@ -847,6 +847,13 @@ footer {
     margin-left: 2rem;
   }
 
+    .nav_menu.active {
+      background-color: #181818;
+    display: block;
+    transform: translateY(0);
+    opacity: 1;
+    justify-content: center;
+  }
   
   .open_type_content {
     padding: 0;
